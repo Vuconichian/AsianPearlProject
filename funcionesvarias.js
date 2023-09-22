@@ -3,11 +3,13 @@ function showFullScreen(img) {
 }
 
 window.onload = function() {
+    console.log("La página se ha cargado completamente.");
     new bootstrap.Carousel(document.getElementById("carouselExampleInterval"), {
         interval: 3000,
         wrap: true,
     });
 };
+
 
 document.addEventListener("DOMContentLoaded", function() {
     var video = document.querySelector("#video-container video");
